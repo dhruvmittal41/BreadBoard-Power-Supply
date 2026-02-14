@@ -7,7 +7,7 @@ A regulated dual-output breadboard power supply designed in KiCad.
 ## 📘 Schematic
 
 <p align="center">
-  <img src="docs/schematic/Breadboard_PowerSupply.png" width="800">
+  <img src="docs/schematic/Breadboard_PowerSupply.svg" width="800">
 </p>
 
 ---
