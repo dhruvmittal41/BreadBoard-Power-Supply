@@ -2000,7 +2000,7 @@
 	)
 	(text "Output and Switches"
 		(exclude_from_sim no)
-		(at 159.512 30.226 0)
+		(at 159.512 29.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2014,6 +2014,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0332855a-ff3b-44cc-9124-0ea8fc86e33b")
+	)
+	(junction
+		(at 93.98 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3331cc43-873b-4ca3-a519-c2ead951a328")
 	)
 	(junction
 		(at 50.8 100.33)
@@ -2070,12 +2076,6 @@
 		(uuid "ab1b5082-f75d-452c-a0b4-770890b99b9e")
 	)
 	(junction
-		(at 167.64 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b6dd0fc6-d17a-4a56-9932-0da7cc6e6e25")
-	)
-	(junction
 		(at 102.87 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2100,6 +2100,12 @@
 		(uuid "de76fd31-eee5-4784-8a2d-1d0fe1b6908e")
 	)
 	(junction
+		(at 167.64 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e973163d-97fa-46ea-a714-5477e2e43560")
+	)
+	(junction
 		(at 93.98 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2111,7 +2117,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 129.54) (xy 93.98 134.62)
+			(xy 93.98 129.54) (xy 93.98 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2191,17 +2197,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 58.42) (xy 167.64 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f0539b4-e3aa-45f1-9ac2-3fd719e1e160")
-	)
-	(wire
-		(pts
-			(xy 167.64 67.31) (xy 175.26 67.31)
+			(xy 167.64 68.58) (xy 175.26 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2218,6 +2214,16 @@
 			(type default)
 		)
 		(uuid "19c6cc43-a759-43fa-a2c3-4b770e9084e1")
+	)
+	(wire
+		(pts
+			(xy 93.98 130.81) (xy 93.98 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b1cb6e3-f303-4c84-a219-95878acdd44b")
 	)
 	(wire
 		(pts
@@ -2301,7 +2307,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 73.66) (xy 167.64 67.31)
+			(xy 167.64 73.66) (xy 167.64 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2331,7 +2337,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 129.54) (xy 58.42 129.54)
+			(xy 50.8 130.81) (xy 58.42 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2371,7 +2377,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 64.77) (xy 175.26 64.77)
+			(xy 170.18 66.04) (xy 175.26 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2381,7 +2387,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 55.88) (xy 170.18 64.77)
+			(xy 170.18 55.88) (xy 170.18 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2438,6 +2444,16 @@
 			(type default)
 		)
 		(uuid "7a0a3b6c-af29-4b71-862b-a58d570c0445")
+	)
+	(wire
+		(pts
+			(xy 168.91 95.25) (xy 168.91 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c1afa33-2649-4bab-a669-6d2372bbc0c0")
 	)
 	(wire
 		(pts
@@ -2551,7 +2567,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 110.49) (xy 50.8 129.54)
+			(xy 50.8 110.49) (xy 50.8 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2601,7 +2617,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 129.54) (xy 93.98 129.54)
+			(xy 66.04 130.81) (xy 93.98 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2611,13 +2627,13 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 95.25) (xy 168.91 109.22)
+			(xy 167.64 58.42) (xy 167.64 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ec29bda5-c309-43df-8958-7019d75dfbe0")
+		(uuid "e87cd9c1-b2e8-4c68-88cf-e70ca4fd3fba")
 	)
 	(wire
 		(pts
@@ -2709,6 +2725,16 @@
 		)
 		(uuid "10bd3a1d-8a27-4424-aff0-13c9b84fb9ef")
 	)
+	(label "PWR_OUT_BOT"
+		(at 168.91 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1be172d3-1025-46eb-947c-b761e959d3cc")
+	)
 	(label "5V"
 		(at 173.99 92.71 180)
 		(effects
@@ -2749,16 +2775,6 @@
 		)
 		(uuid "73e3e38a-ac1e-4698-bf8b-7d5626dd32cf")
 	)
-	(label "PWR_Output"
-		(at 168.91 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "74394086-e751-4931-a1f1-663986ecf950")
-	)
 	(label "3.3V"
 		(at 173.99 97.79 180)
 		(effects
@@ -2768,16 +2784,6 @@
 			(justify right bottom)
 		)
 		(uuid "93bd7be7-e482-4505-a082-6fa2078e284e")
-	)
-	(label "PWR_Output"
-		(at 170.18 52.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b828d2f9-6ba7-439f-88f1-2f45b1f100c3")
 	)
 	(label "12V"
 		(at 36.83 100.33 0)
@@ -2799,6 +2805,16 @@
 		)
 		(uuid "e0aafaa1-de83-4787-a59c-e480ffe5895d")
 	)
+	(label "PWR_OUT_TOP"
+		(at 170.18 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e6cd7379-fdc2-4bcd-b768-ec0f363cfb1a")
+	)
 	(rule_area
 		(polyline
 			(pts
@@ -2817,7 +2833,7 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 205.74 31.75) (xy 205.74 142.24) (xy 149.86 142.24) (xy 149.86 31.75) (xy 196.85 31.75)
+				(xy 205.74 30.48) (xy 205.74 140.97) (xy 149.86 140.97) (xy 149.86 30.48) (xy 196.85 30.48)
 			)
 			(stroke
 				(width 0)
@@ -2852,7 +2868,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0387fb05-8da8-49ca-bd9e-513df8279c17")
 		(property "Reference" "J1"
 			(at 181.61 55.8799 0)
@@ -2897,6 +2912,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Purpose" "Output to the breadboard"
+			(at 182.626 53.086 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -3188,16 +3211,15 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 62.23 129.54 180)
+		(at 62.23 130.81 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1d8f1587-dc6a-4b11-9b84-0c47550c1d47")
 		(property "Reference" "D1"
-			(at 63.8175 121.92 0)
+			(at 63.8175 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3205,7 +3227,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 63.8175 124.46 0)
+			(at 63.8175 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3213,7 +3235,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D5.0mm"
-			(at 62.23 129.54 0)
+			(at 62.23 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3222,7 +3244,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 62.23 129.54 0)
+			(at 62.23 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3231,7 +3253,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 62.23 129.54 0)
+			(at 62.23 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3240,12 +3262,21 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 62.23 129.54 0)
+			(at 62.23 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Purpose" "Power input indicator"
+			(at 62.23 134.112 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -3687,6 +3718,14 @@
 				(hide yes)
 			)
 		)
+		(property "Purpose" "Output to jumper wires"
+			(at 179.07 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8f5fe336-9cb7-4a11-84b0-e8d513124697")
 		)
@@ -3782,10 +3821,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "70ac3843-59a1-40fb-a006-42c62133db08")
 		(property "Reference" "J4"
-			(at 180.34 93.9799 0)
+			(at 180.34 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3794,7 +3832,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Pin"
-			(at 180.34 96.5199 0)
+			(at 180.34 95.2499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3827,6 +3865,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Purpose" "Output voltage selector 2"
+			(at 179.07 88.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -3986,7 +4032,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 180.34 67.31 0)
+		(at 180.34 68.58 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3995,7 +4041,7 @@
 		(dnp no)
 		(uuid "8d363f13-bbaf-4539-9309-64e6b60679a8")
 		(property "Reference" "J5"
-			(at 182.88 67.3101 0)
+			(at 182.88 68.5801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4004,7 +4050,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 182.88 64.7701 0)
+			(at 182.88 66.0401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4013,7 +4059,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
-			(at 180.34 67.31 0)
+			(at 180.34 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4022,7 +4068,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 180.34 67.31 0)
+			(at 180.34 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4031,12 +4077,20 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 180.34 67.31 0)
+			(at 180.34 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Purpose" "Output to jumper wires"
+			(at 180.34 72.898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -4202,10 +4256,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c2c6833b-f2fa-473f-91ce-53f15f545586")
 		(property "Reference" "J2"
-			(at 180.34 109.2199 0)
+			(at 180.34 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4214,7 +4267,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 180.34 111.7599 0)
+			(at 180.34 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4247,6 +4300,15 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Purpose" "Output to the breadboard"
+			(at 168.91 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(pin "1"
@@ -4516,6 +4578,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Purpose" "Output voltage selector 1"
+			(at 180.34 32.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
