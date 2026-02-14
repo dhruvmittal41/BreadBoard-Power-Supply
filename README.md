@@ -7,7 +7,7 @@ A regulated dual-output breadboard power supply designed in KiCad.
 ## 📘 Schematic
 
 <p align="center">
-  <img src="docs/schematic/Breadboard_PowerSupply.svg" width="800">
+  <img src="schematic/Breadboard_PowerSupply.svg" width="800">
 </p>
 
 ---
@@ -15,7 +15,7 @@ A regulated dual-output breadboard power supply designed in KiCad.
 ## 🧩 PCB Layout
 
 <p align="center">
-  <a href="docs/pcb/Breadboard_PowerSupply.svg">
+  <a href="pcb/Breadboard_PowerSupply.svg">
     <img src="docs/pcb/Breadboard_PowerSupply.png" width="800">
   </a>
 </p>
@@ -25,7 +25,7 @@ A regulated dual-output breadboard power supply designed in KiCad.
 ## 🧱 3D View
 
 <p align="center">
-  <img src="docs/3d/Breadboard_PowerSupply_3D.png" width="700">
+  <img src="3d/Breadboard_PowerSupply_3D.png" width="700">
 </p>
 
 ---
